@@ -2,7 +2,6 @@ import React from "react";
 import { Dispatch } from "redux";
 import { connect } from "react-redux";
 import * as CountAction from "../../store/Actions/CountAction";
-
 type Props = {
   count: number;
   increment: () => void;
